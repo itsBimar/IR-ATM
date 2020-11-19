@@ -1,0 +1,40 @@
+section {
+    margin: 7% auto 0;
+    text-align: center;
+}
+
+main {
+    background: rgb(247, 247, 247);
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0 2px 2px 0;
+    max-width: 343px;
+    margin: auto;
+}
+
+#logo {
+    max-width: 60%;
+    height: auto;
+    margin: 20px 0;
+}
+
+h1 {
+    font-family: IRANSans;
+    font-size: medium;
+    color: rgb(120, 120, 120);
+    text-align: center;
+    margin: 35px 0;
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgb(220, 220, 220);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn-wide {
+    font-family:IRANSans;
+    width: 100%;
+}

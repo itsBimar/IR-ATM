@@ -1,0 +1,61 @@
+.form-group {
+    text-align: right;
+}
+
+.form-control {
+    direction: ltr;
+    text-align: right;
+}
+
+input[name=price] {
+    text-align: right;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form-control-feedback {
+    left: 0;
+    right: auto;
+}
+
+.has-feedback .form-control {
+    padding-right: 12px;
+    padding-left: 42px;
+}
+
+.has-error label {
+    color: rgb(169, 68, 66);
+}
+
+.form-group .glyphicon {
+    display: none;
+}
+
+.has-error .glyphicon {
+    display: inline;
+}
+
+.form-group .error-info {
+    display: none;
+}
+
+.has-error .error-info {
+    margin-top: 5px;
+    display: block;
+}
+
+#errors {
+    color: #ac2925;
+}
+
+.g-recaptcha {
+    width: 100% !important;
+}
+
+#persianMoney {
+    margin-top: 5px;
+}
