@@ -1,0 +1,81 @@
+﻿h1{font-size: 19px}
+h2,h3,.text{font-size:16px}
+footer{font-size: 10px}
+nav {
+    margin: 10px auto;
+    text-align: center;
+}
+
+nav ul ul {
+        display: none;
+    }
+
+    nav ul li:hover > ul {
+        display: block;
+    }
+
+nav ul {
+	background:rgba(255, 255, 255, 0.16);
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 18px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+nav ul li {
+	float: right;
+	position: relative;
+	font-weight: bold;
+}
+
+nav ul li:hover {
+	background:rgba(42, 0, 255, 0.30);
+    border-radius:60px;
+    transition: ease-in-out 0.5s;
+}
+
+nav ul li:hover a {
+	color: #fff;
+}
+
+nav ul li a {
+	display: block;
+	padding: 5px 7px;
+	color:#ffffff;
+	text-decoration: none;
+}
+
+nav ul ul {
+	background:;
+	border-radius: 0px;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+}
+nav ul ul li {
+	float: none;
+
+	position: relative;
+}
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}	
+nav ul ul li a:hover {
+	background: #112f44;
+}
+		
+nav ul ul ul {
+	position: absolute;
+	right: 100%;
+	top:0;
+}

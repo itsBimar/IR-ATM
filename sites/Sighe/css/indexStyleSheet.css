@@ -1,0 +1,180 @@
+﻿@font-face{
+font-family: "yekan";font-weight: normal;font-style: normal;
+src: url(font/Yekan.eot);src: url(font/Yekan.eot) format("embedded-opentype"), url(font/Yekan.woff) format("woff"), url(font/Yekan.ttf) format("truetype"), url(font/Yekan.svg) format("svg");}
+
+::selection{display: none;}
+.disabled{cursor:not-allowed;}
+a{text-decoration: none;color: white;}
+.banki{color:#ffffff;text-align:center;}
+.Error{color:#ff0000;text-align:center;}
+h1{text-align:center;font-size:20px;color:#ffffff}
+h2{text-align:center;font-size:18px;color:#ffffff}
+h3{text-align:right;font-size:16px;color:#ffffff;padding-right:20px}
+.contactus{color:#00ff21;text-align:center;}
+hr{width:50%;border-bottom: solid 1px ;color:greenyellow}
+.Question{text-align:right;direction:rtl;font-size:18px;font-weight:initial;color:#ffffff;padding-right:20px;}
+.Answer{text-align:right;direction:rtl;font-size:15px;font-weight:normal;color:#ffffff;padding-right:30px;}
+
+.index
+{
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../images/backgrund.jpg)center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    direction: rtl;
+    height: 100%;
+    font-family: Yekan,tahoma;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    cursor: default;
+}
+
+nav {
+    margin: 10px auto;
+    text-align: center;
+}
+
+nav ul ul {
+        display: none;
+    }
+
+    nav ul li:hover > ul {
+        display: block;
+    }
+
+nav ul {
+	background:rgba(255, 255, 255, 0.16);
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 18px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+nav ul li {
+	float: right;
+	position: relative;
+	font-weight: bold;
+}
+
+nav ul li:hover {
+	background:rgba(42, 0, 255, 0.30);
+    border-radius:60px;
+    transition: ease-in-out 0.5s;
+}
+
+nav ul li:hover a {
+	color: #fff;
+}
+
+nav ul li a {
+	display: block;
+	padding: 5px 15px;
+	color:#ffffff;
+	text-decoration: none;
+}
+
+nav ul ul {
+	background:;
+	border-radius: 0px;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+}
+nav ul ul li {
+	float: none;
+
+	position: relative;
+}
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}	
+nav ul ul li a:hover {
+	background: #112f44;
+}
+		
+nav ul ul ul {
+	position: absolute;
+	right: 100%;
+	top:0;
+}
+
+.text
+{
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    float: right;
+    position: relative;
+    padding-top: 2%;
+    padding-left: 0%;
+    padding-right: 5%;
+    margin-left: 2%;
+    margin-right: 8%;
+}
+.adad {
+    width:100px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel],textarea,input[type=number]
+{
+    font-family: Yekan,tahoma;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.10);
+    margin-bottom: 8px;
+    padding-bottom:3px;
+    border-radius:8px;
+    border-style: solid;
+    border-bottom:0.5px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color:#ffffff;
+    border-bottom-style:solid;
+    transition: ease-in-out 0.5s;
+}
+
+input[type=text]:focus, input[type=number]:focus,input[type=email]:focus,input[type=tel]:focus,input[type=number]:focus,textarea:focus{border-bottom-style:dashed;border-bottom-width:1px;}
+input[type=submit]
+{
+    font-family: Yekan,tahoma;
+    font-size: 18px;
+    text-align: center;
+    width: 80px;
+    color: #fff;
+    background: no-repeat;
+    display: inline-block;
+    border: 0.5px;
+    border-style: groove;
+    border-color: #fff;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+footer
+{
+    color: white;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.60);
+    text-align: center;
+}
