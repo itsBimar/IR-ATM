@@ -1,0 +1,729 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-size: medium;
+    font-weight: normal;
+    src: url('../fonts/IRANSansWeb.woff');
+}
+
+@font-face {
+    font-family: BBardiya;
+    font-size: medium;
+    font-weight: normal;
+    src: url('../fonts/BBardiya_0.ttf');
+}
+
+@font-face {
+    font-family: Harmattan;
+    font-size: medium;
+    font-weight: normal;
+    src: url('../fonts/Harmattan-R.woff');
+}
+
+#phoneNumber {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    text-align: center;
+    height: 25px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 270px;
+}
+
+body {
+    text-align: center;
+    direction: rtl;
+    background-color:white;
+    background-image: url('../image/bg.png');
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
+.app-style {
+    position: relative;
+    text-align: center;
+}
+
+.freeNet {
+}
+
+.main-container {
+    line-height: 50PX;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: 0px 0px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.inputGroup {
+    margin-bottom: 7px;
+    position: relative;
+}
+
+
+.step {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.event-title {
+    font-size: 25px;
+    font-family: IranSans;
+    color: #6caf5b;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+
+.form-lable {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.btn-2 {
+    text-align: center !important;
+    padding-right: 0 !important;
+}
+
+.form-input-1 {
+    text-align: center;
+    height: 44px;
+    direction: ltr;
+    color: black;
+    font-size: 17px;
+    font-family: IRANSans;
+    background-color: #ffffff;
+    border-radius: 17px;
+    width: 300px;
+    border: 1px solid #706969;
+    outline: none;
+
+}
+
+.inputPhone {
+    font-size: 30px !important;
+    left: 33px;
+    position: absolute;
+    top: 11px;
+    color: #57924a;
+}
+
+.p-color {
+    font-size: 20px;
+    font-family: IRANSans;
+    color: #113666;
+    font-weight: bold;
+}
+
+.text-sms {
+    font-family: BBardiya;
+    font-size: 14px;
+    color: #3a3838;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+.p-color-2 {
+    font-family: IRANSans;
+    font-size: 12px;
+    color: #4c616d;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #a5a3a3;
+    font-size: 13px;
+}
+
+
+.form-error {
+    display: none;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    font-family: Iransans;
+    line-height: 30px;
+    padding-top: 5px;
+}
+
+.form-download-a {
+    color: white;
+    text-decoration: none;
+}
+
+.all-step {
+    display: block;
+    z-index: 12;
+ 
+}
+
+.textPic2 {
+    margin-top: 5%;
+}
+
+.winner {
+    position: absolute;
+    top: 4%;
+    left: 8%;
+    width: 20%;
+}
+
+
+
+@keyframes ganim {
+    0% {
+        transform: scale(0.96);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.96);
+    }
+}
+
+
+.arowBtn {
+    position: absolute;
+    top: 4px;
+    left: 40px;
+    width: 10%;
+}
+
+
+
+@keyframes tanim {
+    0% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.sec-2-1 {
+    margin-left: 70%;
+    font-family: IRANSans;
+    font-size: 11px;
+    color: #000f1c;
+    font-weight: bold;
+}
+
+.sec-2-2 {
+    font-family: Harmattan;
+    font-size: 19.5px;
+    color: grey;
+    font-weight: bolder;
+}
+
+.section-4 {
+    line-height: 30px;
+}
+
+.p-color-3 {
+    font-family: Yekan;
+    font-size: 30px;
+    color: #cf111e;
+    direction: rtl;
+    margin-top: 5%;
+}
+	button{
+
+    width: 154px;
+    height: 55px;
+    background-color: #e81d24;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: IRANSans;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border: 2px solid #FFF;
+}
+
+ 
+
+.flashBtnLeft {
+    left: 22;
+    position: absolute;
+    top: 21%;
+    animation: slideLeft 1.5s infinite;
+}
+
+@keyframes slideLeft {
+    0% {
+        left: -5px;
+        transform: scale(0.7);
+    }
+
+
+    50% {
+        left: 22px;
+        transform: scale(1);
+    }
+
+    100% {
+        left: -5px;
+        transform: scale(0.7);
+    }
+}
+
+.flashBtnRight {
+    right: 22px;
+    top: 21%;
+    position: absolute;
+    animation: slideRight 1.5s infinite;
+}
+
+@keyframes slideRight {
+    0% {
+        right: -5px;
+        transform: scale(0.7);
+    }
+
+
+    50% {
+        right: 22px;
+        transform: scale(1);
+    }
+
+    100% {
+        right: -5px;
+        transform: scale(0.7);
+    }
+}
+
+.btnWidth {
+    width: 252px !important;
+}
+
+.animateHeart {
+    animation: ganim 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.buttonGroup {
+    position: relative;
+    margin: 0 auto;
+}
+
+.form-button-1 {
+    display: block;
+    font-family: IRANSans;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 0px auto;
+    text-decoration: none;
+    width: 230px;
+    height: 45px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #cf28a3;
+    color: white;
+}
+
+
+.stepShape {
+    height: auto;
+    width: 70%;
+}
+
+.success-message {
+    font-size: 11px;
+    color: #c29292;
+    position: fixed;
+    top: 81%;
+    left: 23%;
+    font-family: Irancell;
+}
+
+.timeText {
+    font-family: Harmattan;
+    font-size: 21.5px;
+    line-height: 1.67;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #1a2b8d;
+    margin-top: 40px;
+}
+
+.flip-clock-wrapper {
+    margin: 0 auto;
+    width: fit-content !important;
+}
+
+    .flip-clock-wrapper ul li a div div.inn {
+        color: #3b1ca3 !important;
+        background-color: #cae4f1 !important;
+    }
+
+    .flip-clock-wrapper .flip {
+        box-shadow: none !important;
+    }
+
+    .flip-clock-wrapper ul {
+        background: #feffff1c !important;
+    }
+
+.flip-clock-divider .flip-clock-label {
+    display: none;
+}
+
+.flip-clock-divider.minutes {
+    display: none !important;
+}
+
+.saveNumberGroup {
+    object-fit: contain;
+    border-radius: 8px;
+    border: none;
+    background-color: #A5D6A7;
+    margin: 50px 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.saveNumber {
+    font-family: Harmattan;
+    font-size: 21px;
+    line-height: 37px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5223da;
+    direction: rtl;
+}
+
+.section-5 {
+    line-height: 50px;
+}
+
+.p-color-4 {
+    text-shadow: 0 0 49.1px rgba(0, 78, 117, 0.56);
+    font-family: iranSans;
+    
+    font-size: 36.5px;
+    font-weight: bold;
+    text-align: center;
+    color: #1a2b8d;
+}
+
+.welcomeMessage {
+    text-shadow: 0 0 49.1px rgba(0, 78, 117, 0.56);
+    font-family: BBardiya;
+    font-size: 16.5px;
+    text-align: center;
+    color: #1a2b8d;
+}
+
+.changeNum {
+    font-family: Harmattan;
+    font-size: 23.5px;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: #fffeff;
+}
+
+.loader {
+    width: 100%;
+    height: 100vh;
+    background: #f3f3f3bf !important;
+    opacity: 0.75;
+    position: fixed;
+    z-index: 98;
+    top: 0;
+}
+
+.loading {
+    position: absolute;
+    top: 33%;
+    left: 42%;
+    margin: auto;
+    border: 10px solid transparent;
+    border-radius: 100%;
+    border-top: 10px solid #3498db;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    z-index: 99;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-bottom {
+    position: relative;
+    animation-name: animatebottom;
+    animation-duration: 2s;
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+
+
+
+    .sec-2-1 {
+        margin-left: 50%;
+        margin-top: 2%;
+        font-size: 15px;
+    }
+
+
+    .form-input-1 {
+        height: 50px;
+    }
+
+
+
+    .inputPhone {
+        left: 25%;
+        font-size: 41px !important;
+        top: 15%;
+    }
+
+    .form-download-a {
+        font-size: 25px;
+        max-width: 400px;
+        height: 50px;
+    }
+
+    .success-message {
+        font-size: 25px;
+        top: 23%;
+        left: 17%;
+    }
+
+    .form-lable {
+        font-size: 25px;
+    }
+
+    .form-error {
+        margin-bottom: -30px;
+    }
+}
+
+
+
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+
+.spinner {
+    position: fixed;
+    z-index: 99999;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 123, 255, 0.12);
+    border: 5px solid #17a2b8;
+    border-radius: 100%;
+    border-bottom-color: transparent;
+    -webkit-animation: spinner 1s linear 0s infinite;
+    animation: spinner 1s linear 0s infinite;
+}
+
+.overlay {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 29, 33, 0.83);
+    z-index: 99999999;
+    opacity: 1.5;
+}
+
+
+@-webkit-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.flip-clock-wrapper ul li a div div.inn {
+    color: #e50e0e !important;
+    background-color: #3cae41 !important;
+}
+
+.taeed{
+
+	text-decoration: none;
+	border:2px solid black;
+	background-color:green;
+	color:#fff;
+	font-size: 20px;
+	margin:5px 10px;
+	margin-top:;
+	padding:15px;
+	border-radius: 10px;
+
+
+
+
+
+}
